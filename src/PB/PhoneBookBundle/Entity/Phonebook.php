@@ -52,7 +52,7 @@ class Phonebook
     /**
      * @var text
      *
-     * @ORM\Column(name="info", type="text"")
+     * @ORM\Column(name="info", type="text")
      */
     private $info;
 
