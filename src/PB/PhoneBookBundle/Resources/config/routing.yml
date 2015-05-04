@@ -1,0 +1,3 @@
+pb_phone_book_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PBPhoneBookBundle:Default:index }
