@@ -5,3 +5,11 @@ pb_phone_book_homepage:
 pb_phone_book_index:
     path:     /phonebook
     defaults: { _controller: PBPhoneBookBundle:Default:index }
+
+pb_phone_book_create:
+    path:     /create
+    defaults: { _controller: PBPhoneBookBundle:Default:create }
+
+pb_phone_book_show:
+    path:     /show/{id}
+    defaults: { _controller: PBPhoneBookBundle:Default:show }

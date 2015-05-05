@@ -1,0 +1,12 @@
+{% extends('@PBPhoneBook/base.html.twig') %}
+
+{% block title%} PhoneBooks {% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h3>Phonebooks</h3>
+
+        {{ phonebook.all }}
+
+    </div>
+{% endblock %}
